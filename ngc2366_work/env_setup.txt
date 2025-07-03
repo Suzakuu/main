@@ -1,0 +1,8 @@
+## Create new conda environment and install all packages.
+## Python version should be >3.
+## Have a ds9 version working on your machine.
+
+conda create -n uls_2025 astropy astropy::astroplan astropy::ccdproc matplotlib numpy pandas pathlib jupyterlab photutils
+pip install teareduce
+pip install ipywidgets
+pip install astroalign

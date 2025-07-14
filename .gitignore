@@ -1,0 +1,4 @@
+.git/*
+.conda/*
+.venv/*
+./ngc2366_work/data/*
